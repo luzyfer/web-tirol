@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Restaurant Hugo"
+languageCode = "ca-ES"
+title = "Frankfurt Tirol"
 theme = "restaurant-hugo"
 summaryLength = "10"
 paginate = 4
@@ -41,39 +41,39 @@ URL = "js/main.js"
 ############################## navigation ###############################
 
 [[menu.main]]
-name = "Home"
+name = "Inici"
 URL = "hero-area"
 weight = 1
 
 [[menu.main]]
-name = "About Us"
+name = "sobre Nosaltres"
 URL = "about-us"
 weight = 2
 
 [[menu.main]]
-name = "Blog"
-URL = "blog"
+name = "Nostra Carta"
+URL = "price"
 weight = 3
 
 [[menu.main]]
-name = "Price"
-URL = "price"
+name = "Contacte"
+URL = "contact-us"
 weight = 4
+
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 5
 
 [[menu.main]]
 name = "News"
 URL = "subscribe"
-weight = 5
-
-[[menu.main]]
-name = "Contact Us"
-URL = "contact-us"
 weight = 6
 
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo_titulo.png" #logo = "images/logo.png"
 # meta data
 author = "Themefisher"
 description = "This is meta description"
@@ -92,45 +92,49 @@ preloader = "" # use .png , .svg or .gif format
 ################################### Footer ############################
 [params.footer]
 enable = true
-contactInfoTitle = "CONTACT <span>INFO</span> "
-blogTitle = "LATEST <span>BLOG POSTS</span>"
-galleryTitle = "PHOTO <span>STREAM</span>"
-socialTitle = "Follow <span>US</span>"
+contactInfoTitle = "CONTACE E <span>INFO</span> "
+blogTitle = "DARRERS <span>BLOG POSTS</span>"
+galleryTitle = "IMATGES <span>STREAM</span>"
+socialTitle = "SEGEIX-<span>NOS</span>"
 
 ############################ footer contact item
 [[params.footer.contactItem]]
-title="Telephone"
+title="Telèfon"
 icon = "fa fa-phone"
-content = "016742 323313"
+content = "+34 937 80 49 28"
 
 [[params.footer.contactItem]]
-title="Address"
+title="adreça"
 icon = "fa fa-map-marker"
 content = "2046 Blue Spruce Lane Laurel Canada"
 
 [[params.footer.contactItem]]
 title="E mail"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content = "info@franfurt-tirol.com"
 
 ######################### footer gallery
 [[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
+image = "images/slider/adobado_con_guarnicion.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+image = "images/slider/atun-huevo-piminientos.jpeg"
+
+[[params.footer.gallery]]
+image =  "images/slider/huevo-anchoa-pimientos.jpeg"
+
+[[params.footer.gallery]]
+image = "images/slider/huevos-aptatas-bacon.jpeg"
+
+[[params.footer.gallery]]
+image = "images/slider/sepia_ensladilla.jpg"
 
 [[params.footer.gallery]]
 image = "images/slider/slider-img-3.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-4.jpg"
+image = "images/slider/tortilla-butiffarra-ensalda.jpeg"
 
-[[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
 
 ######################## Social Icon 
 [[params.footer.socialLink]]

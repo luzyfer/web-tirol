@@ -7,22 +7,24 @@ hero_area:
 ################### Gallery ###################
 gallery:
   enable : true
-  title : "FEATURED WORKS"
+  title : "ESPECIATLITATS"
   images:
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
+
+    - "images/slider/adobado_con_guarnicion.jpg"
+    - "images/slider/atun-huevo-piminientos.jpeg"
+    - "images/slider/ensaldada.jpg"
+    - "images/slider/huevo-anchoa-pimientos.jpeg"
+    - "images/slider/huevos-aptatas-bacon.jpeg"
+    - "images/slider/sepia_ensladilla.jpg"
     - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
+    - "images/slider/tortilla-butiffarra-ensalda.jpeg"
 
 ################ About #######################
+  #title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
 about:
   enable : true
-  image : "images/cooker-img.png"
-  title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
+  image : "images/logo_tirol.png"
+  title : "<span> Especiaitat en entrepans i plats combinats</span>"
   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
   
 ################# Blog ######################
