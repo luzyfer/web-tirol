@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
+baseURL = "http://example.org/" #cambiarlo cuando se suba al servidor
 languageCode = "ca-ES"
 title = "Frankfurt Tirol"
 theme = "restaurant-hugo"
@@ -75,8 +75,9 @@ weight = 6
 [params]
 logo = "images/logo_titulo.png" #logo = "images/logo.png"
 # meta data
-author = "Themefisher"
-description = "This is meta description"
+author = "webstylejordi"
+description = "web de Frankfurt Tirol"
+keywords = "restaurant, entrepans freds i calents, cercecería, plats convinats "
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # mainSections
@@ -92,12 +93,13 @@ preloader = "" # use .png , .svg or .gif format
 ################################### Footer ############################
 [params.footer]
 enable = true
-contactInfoTitle = "CONTACE E <span>INFO</span> "
+contactInfoTitle = "CONTACE I <span>INFO</span> "
 blogTitle = "DARRERS <span>BLOG POSTS</span>"
 galleryTitle = "IMATGES <span>STREAM</span>"
 socialTitle = "SEGEIX-<span>NOS</span>"
 
 ############################ footer contact item
+#content = "Rambla d'Ègara, 380, 08221 Terrassa, Barcelona"
 [[params.footer.contactItem]]
 title="Telèfon"
 icon = "fa fa-phone"
@@ -106,12 +108,14 @@ content = "+34 937 80 49 28"
 [[params.footer.contactItem]]
 title="adreça"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "Rambla d'Ègara, 380, 08221 Terrassa, Barcelona"
+
 
 [[params.footer.contactItem]]
 title="E mail"
 icon = "fa fa-envelope"
 content = "info@franfurt-tirol.com"
+ 
 
 ######################### footer gallery
 [[params.footer.gallery]]
@@ -139,16 +143,19 @@ image = "images/slider/tortilla-butiffarra-ensalda.jpeg"
 ######################## Social Icon 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "twitter"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "dribbble"
-link = "https://fb.com/themefisher"
+link = "https://www.facebook.com/FrankfurtTirol"
 
 [[params.footer.socialLink]]
 icon = "instagram"
-link = "https://fb.com/themefisher"
+link = "https://www.instagram.com/frankfurttirol/"
+
+#añadir TripAdvisor , FourSquare, etc
+
+#[[params.footer.socialLink]]
+#icon = "twitter"
+#link = "https://fb.com/themefisher"
+
+#[[params.footer.socialLink]]
+#icon = "dribbble"
+#link = "https://fb.com/themefisher"
+

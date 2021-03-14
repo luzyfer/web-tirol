@@ -24,7 +24,7 @@ gallery:
 about:
   enable : true
   image : "images/logo_tirol.png"
-  title : "<span> Especiaitat en entrepans i plats combinats</span>"
+  title : "<span> Benvingut a Frankfurt Tirol</span>"
   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
   
 ################# Blog ######################
@@ -76,6 +76,6 @@ subscription:
 ################ Contact #######################
 contact:
   enable : true
-  title: "Let's <span> Contact Us </span>"
-  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  title: "CONTACTA <span> Contact Us </span>"
+  subtitle: "SUSCRIU-TE A LES NOSTRES NOVETATS"
   form_action : "#" #contact form works with formspree.io

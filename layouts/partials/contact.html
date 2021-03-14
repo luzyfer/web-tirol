@@ -1,0 +1,36 @@
+{{ if site.Data.homepage.contact.enable }}
+{{ with site.Data.homepage.contact }}
+<section id="contact-us">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="block">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11940.14949958767!2d2.005086!3d41.5684357!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7524a5c40a2c36b2!2sFrankfurt%20Tirol!5e0!3m2!1ses!2ses!4v1615725568365!5m2!1ses!2ses" 
+					width="400" height="350" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+
+			</div>
+			<div class="col-md-6">
+				<div class="block">
+					<h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ .title | markdownify }}</h1>
+					<h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">{{ .subtitle | markdownify }}</h3>
+					<form action="{{ .form_action }}" method="POST">
+						<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+							<input type="email" name="email" class="form-control" placeholder="Escriu el teu correu electonic...">
+						</div>
+						<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="800ms">
+							<input type="text" name="name" class="form-control" placeholder="Escriu el teu nom complert...">
+						</div>
+						<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1000ms">
+							<textarea class="form-control" rows="3" name="message" placeholder="El teu missatje..."></textarea>
+						</div>
+						<button type="submit" value="send" class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms"
+						role="button">Envia</button>
+					</form>
+				</div>
+			</div><!-- .col-md-12 close -->
+		</div><!-- .row close -->
+	</div><!-- .container close -->
+</section><!-- #contact-us close -->
+{{end}}
+{{end}}
